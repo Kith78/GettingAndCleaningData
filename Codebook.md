@@ -46,8 +46,8 @@ std(): Standard deviation
 
 ## List of Features/Variables
 
-subject  
-activity  
+subject: volunteer (group of 30)
+activity: activity engaged by volunteer (WALKING, WALKING_UPSTAIRS,WALKING_DOWNSTAIRS,SITTING,STANDING,LAYING)
 tBodyAcc-mean()-X  
 tBodyAcc-mean()-Y  
 tBodyAcc-mean()-Z  
