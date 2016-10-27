@@ -33,4 +33,6 @@ The set of variables that were estimated from these signals are:
 mean(): Mean value
 std(): Standard deviation
 
+The list of all features can be found in features_list.txt
+
 (from features_info.txt)
