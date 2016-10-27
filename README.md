@@ -1,14 +1,10 @@
 # GettingAndCleaningData
 
 ## Summary script (dataanalysis.R)
+Running dataanalysis.R generates two .txt file:
 
-The script dataanalysis does the following:
-
-1. Loads the different datasets. Need to be run in the folder UCI HAR Dataset
-2. Combines subjects, features and activities from test and train datasets
-3. Selects only mean() and std() from the features set
-4. merges the different datatsets (subject, features and activities) in a single dataframe, **mergeALL**
-5. summarizes mergeALL by subject and activity, and calculates the means of each variable in the dataframe **summaryMerge**
+1. **mergeALL.txt** is the merging of both test and train datasets, only looking at mean() and std() factor
+5. **summaryMerge.txt** summarizes the average of each mean() and std() factors by subject and activity 
 
 ## Libraries used
-make sure that you have dplyr intsalled 
+dplyr 
