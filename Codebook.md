@@ -4,6 +4,6 @@
 1. Loads the different datasets. Needs to be run in the folder UCI HAR Dataset
 2. Combines subjects, features and activities from test and train datasets
 3. Selects only mean() and std() from the features set
-4. merges the different datatsets (subject, features and activities) in a single dataframe, **mergeALL**
+4. merges the different datatsets (subject, features and activities) in a single dataframe, **mergeALL** (also removes acitivityID as it is redundant with the actual activity)
 5. summarizes mergeALL by subject and activity, and calculates the means of each variable in the dataframe **summaryMerge**
 6. Writes mergeALL to file mergeALL.txt and summaryMerge to file summaryMerge.txt
