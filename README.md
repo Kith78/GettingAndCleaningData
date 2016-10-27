@@ -1,7 +1,9 @@
 # GettingAndCleaningData
 
 ## Summary script (dataanalysis.R)
+
 The script dataanalysis does the following:
+
 1. Loads the different datasets. Need to be run in the folder UCI HAR Dataset
 2. Combines subjects, features and activities from test and train datasets
 3. Selects only mean() and std() from the features set
